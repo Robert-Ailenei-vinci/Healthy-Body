@@ -1,0 +1,25 @@
+### GET request to example server
+GET https://examples.http-client.intellij.net/get
+    ?generated-in=IntelliJ IDEA
+
+###
+
+
+GET localhost:8080/users
+Content-Type: */*
+
+###
+
+### POST - Add a new user
+POST localhost:8080/users
+Content-Type: application/json
+
+{
+  "name": "John Doe",
+  "email": "john.doe@example.com",
+  "userName": "johndoe",
+  "password": "password123",
+  "age": 30,
+  "mass": 75,
+  "role": "user"
+}
